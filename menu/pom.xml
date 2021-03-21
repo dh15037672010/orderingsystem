@@ -30,10 +30,10 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>8.0.11</version>
         </dependency>
-        <!-- 配置中心 -->
+        <!-- 使用自己的配置中心 -->
         <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-config</artifactId>
+            <groupId>com.southwind</groupId>
+            <artifactId>configserver</artifactId>
         </dependency>
     </dependencies>
 
